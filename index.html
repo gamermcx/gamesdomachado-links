@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Games do Machado</title>
-    <style>
-        body {
-            background-color: #121212;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 2rem;
-        }
-        img {
-            width: 120px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px #bc1888;
-        }
-        h1 {
-            font-weight: 700;
-            letter-spacing: 2px;
-        }
-        p {
-            font-style: italic;
-            margin-bottom: 2rem;
-            color: #bbb;
-        }
-        .link {
-            display: block;
-            background: linear-gradient(90deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-            margin: 12px auto;
-            padding: 15px;
-            width: 90%;
-            max-width: 400px;
-            border-radius: 10px;
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: bold;
-            transition: background 0.3s ease;
-        }
-        .link:hover {
-            background: #e6683c;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Games do Machado</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .balloon {
+      background-color: #2a2a2a; /* cor mais discreta */
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px auto;
+      width: 80%;
+      max-width: 400px;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .btn-wpp {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #25D366; /* verde WhatsApp */
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .btn-wpp:hover {
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
-    <img src="logo.jpg" alt="Logo Games do Machado" />
-    <h1>Games do Machado</h1>
-    <p>Conteúdo Gamer, Promoções e Notícias Exclusivas</p>
 
-    <a class="link" href="https://www.instagram.com/gamesdomachado/" target="_blank" rel="noopener noreferrer">
-        Siga nosso Instagram oficial @gamesdomachado
-    </a>
+  <img src="logo.jpg" alt="Logo da loja" />
 
-    <a class="link" href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
-        Fale conosco pelo WhatsApp
-    </a>
+  <h1>Bem-vindo ao Games do Machado!</h1>
 
-    <a class="link" href="https://shopee.com.br/" target="_blank" rel="noopener noreferrer">
-        Visite nossa Loja Oficial na Shopee
-    </a>
+  <div class="balloon">
+    Jogos em mídia física e digital com os melhores preços!
+  </div>
+
+  <div class="balloon">
+    Atendemos em todo o Brasil via WhatsApp.
+  </div>
+
+  <!-- Botão do WhatsApp (insira seu número no formato internacional) -->
+  <a class="btn-wpp" href="https://api.whatsapp.com/send?phone=5511910738555&text=Olá!%20Quero%20saber%20mais%20sobre%20os%20jogos" target="_blank">
+    Fale conosco no WhatsApp
+  </a>
+
 </body>
 </html>
